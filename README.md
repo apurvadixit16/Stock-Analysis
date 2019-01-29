@@ -1,4 +1,4 @@
-Stock Analysis Application
+#Stock Analysis Application
 
 Application is deployed on heroku cloud platform.
 
