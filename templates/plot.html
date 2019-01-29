@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="../static/main.css" rel="stylesheet">
+		<link rel="stylesheet" href={{cdn_css|safe}} type="text/css" />
+		<script type="text/javascript" src={{cdn_js|safe}}> </script>
+		<title>stock analysis</title>
+	</head>
+	<body>
+	<div class="selection">
+		<form action="/plot">
+			<select name="plot_name">
+			{% for plot in plot_names %}
+				{% if plot == current_plot_name %}
+					<option selected value="{{ plot }}">{{ plot }}</option>
+				{% else %}
+					<option value="{{ plot }}">{{ plot }}</option>
+				{% endif %}
+			{% endfor %}
+			</select>
+			<input type="submit">
+		</form>
+		<div class="script">
+		{{ script|safe }}
+		{{ div|safe }}
+		</div>
+	<a href="{{url_for('index')}}"><strong><italic>Click to change Ticker..!</italic></strong></a>
+	</div>
+
+</body>
+</html>

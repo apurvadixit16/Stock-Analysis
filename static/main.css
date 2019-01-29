@@ -1,0 +1,65 @@
+html,body{
+    height : 100%;
+    margin : 0;
+    }
+
+.data_extraction{
+    margin : 0 auto;
+    height : 100%;
+    width : 100%;
+    background-color : #006666;
+    color : #e6ffff;
+    overflow : hidden;
+    text-align : center;
+}
+
+.data_extraction h1{
+    font-family : Arial,sans-serif;
+    font-size : 30px;
+    color : #DDCCEE;
+    margin-top : 80px;
+    }
+
+.data_extraction button{
+    margin : 20px;
+     width : 170px;
+    height : 30px;
+    }
+
+.selection{
+    margin : 0 auto;
+    height : 100%;
+    width : 100%;
+    background-color : #006666;
+    color : #e6ffff;
+    overflow : hidden;
+    text-align : center;
+}
+
+.selection button{
+    margin : 20px;
+     width : 70px;
+    height : 30px;
+
+}
+
+.selection a:link{
+    background-color: steelblue;
+    color: #999999;
+    padding:25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.selection a:hover{
+    background-color: #DDCCEE;
+}
+
+.script{
+    margin-bottom:50px;
+    margin-top:25px;
+    margin-left:50px;
+    margin-right:50px;
+}

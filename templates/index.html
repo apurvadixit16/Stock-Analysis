@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>stock analysis</title>
+<head>
+     <link href="../static/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="data_extraction">
+        <h1>STOCK ANALYSIS</h1>
+        <form action="{{url_for('data_extraction')}}" method ="POST">
+            Stock Symbol(Ticker):<input type="text" name="company_symbol">&nbsp;&nbsp;
+            Start Date:<input type="date" name="start_date">&nbsp&nbsp;
+            End Date:<input type="date" name="end_date"><br>
+            <button type="submit">Checkout graphs</button>
+        </form>
+    </div>
+</body>
+</html>
